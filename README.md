@@ -6,6 +6,7 @@ The ontological counterpart to `whoami` - for all your existential command line 
 Build and Install
 -----------------
 
+    $ git clone https://github.com/jkingsman/whyami.git
     $ make
     $ sudo make install
 
@@ -14,7 +15,7 @@ The default install PREFIX is `/usr/bin`.
 Usage
 -----
 
-`whyami [--belief]` returns a meaning from a random philosophy of belief, or the meaning as specified by some named `belief` system.
+`whyami [--belief]` returns a meaning from a random philosophy of belief, or the meaning as optionally specified by some named `belief` system.
 
 Disclaimer
 -----
