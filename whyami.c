@@ -49,7 +49,7 @@ int show_meaning(char *belief) {
   /* show random belief and meaning if they asked for one */
   if(strcmp(belief, "random") == 0){
     i = rand() % get_meaning_count();
-    printf("According to the philosophy of %s: %s", meanings[i].prettybelief, meanings[i].meaning);
+    printf("According to the philosophy of %s: %s\n", meanings[i].prettybelief, meanings[i].meaning);
     located_belief = 1;
   }
 
