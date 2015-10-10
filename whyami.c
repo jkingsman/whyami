@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     }
 
     if(!show_meaning(belief)){
-      printf("A meaning for your specific belief system was not found. In the meantime, feel free to use \"42\" as a good starting point.\n");
+      printf("A meaning for your specific belief system was not found. In the meantime, feel free to use \"%s\" as a good starting point.\n", default_meaning);
       return 1;
     }
 
@@ -54,20 +54,23 @@ int show_meaning(char *belief) {
   }
 
   /* show belief list */
-  if(strcmp(belief, "list") == 0){
+  else if(strcmp(belief, "list") == 0){
     for(i = 0; meanings[i].belief != NULL; i++){
         printf("%s - %s\n", meanings[i].prettybelief, meanings[i].belief);
     }
     return 1;
   }
 
-  /* show the requested belief */
-  for(i = 0; meanings[i].belief != NULL; i++){
-    if(strcmp(meanings[i].belief, belief) == 0){
-      printf("%s\n", meanings[i].meaning);
-      return 1;
-    };
-  }
+  else{
+    /* show the requested belief */
+    for(i = 0; meanings[i].belief != NULL; i++){
+      if(strcmp(meanings[i].belief, belief) == 0){
+        printf("%s\n", meanings[i].meaning);
+        return 1;
+      };
+    }
 
-  return 0;
+    /* no match found */
+    return 0;
+  }
 }
