@@ -32,6 +32,7 @@ int main(int argc, char *argv[]) {
     if(argc == 1){
       belief = "random";
     } else{
+      /* +2 strips out the double minus of the long flag */
       belief = argv[1] + 2;
     }
 
