@@ -15,7 +15,7 @@ static Meaning meanings[] = {
     {"hhgg", "The Answer to Life, the Universe, and Everything", "42"},
     {"christian", "Christianity", "Act with justice, to treasure the Lord's gracious love, and to walk humbly in the company of your God"},
     {"muslim", "Islam", "Faithfully worship Allah PBUH"},
-    {"nhilism", "Nhilism", "You aren't."},
+    {"nhilism", "Nhilism", "It doesn't matter."},
     {"communism", "Communism", "Work for the greater good."},
     {"democracy", "Democracy", "Cast your vote for the greater good."},
     {"software", "Software Development", "Write beautiful code."},
