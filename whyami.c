@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
     char *belief;
     srand(time(NULL));
 
-    /* if no belief is requested, show the default */
+    /* if no belief is requested, show a random one */
     if(argc == 1){
       belief = "random";
     } else{
