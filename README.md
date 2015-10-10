@@ -7,6 +7,7 @@ Build and Install
 -----------------
 
     $ git clone https://github.com/jkingsman/whyami.git
+    $ cd whyami
     $ make
     $ sudo make install
 
