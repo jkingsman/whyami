@@ -13,6 +13,8 @@ Build and Install
 
 The default install PREFIX is `/usr/bin`.
 
+Please add your own belief systems in `meanings.h`.
+
 Usage
 -----
 
