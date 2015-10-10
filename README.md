@@ -13,6 +13,9 @@ Build and Install
 
 The default install PREFIX is `/usr/bin`.
 
+Contributing
+-----
+
 Please add your own belief systems in `meanings.h`. Thanks to [this reddit post](https://www.reddit.com/r/ProgrammerHumor/comments/3o3pv8/how_can_our_bash_be_real_if_our_envs_arent_real/) for inspiration.
 
 Usage
