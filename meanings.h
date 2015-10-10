@@ -12,7 +12,7 @@ static Meaning meanings[] = {
      *  "pretty print belief name (that works with the intro phrase: Accoring to the philosophy of ...)",
      *  "meaning of life"}
      */
-    {"truth", "The Answer to Life, the Universe, and Everything", "42"},
+    {"hhgg", "The Answer to Life, the Universe, and Everything", "42"},
     {"christian", "Christianity", "Act with justice, to treasure the Lord's gracious love, and to walk humbly in the company of your God"},
     {"muslim", "Islam", "Faithfully worship Allah PBUH"},
     {"nhilism", "Nhilism", "You aren't."},
