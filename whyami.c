@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
     }
 
     if(!show_meaning(belief)){
-      printf("A meaning for your specific belief system was not found. In the meantime, feel free to use \"42\" as a good starting point.");
+      printf("A meaning for your specific belief system was not found. In the meantime, feel free to use \"42\" as a good starting point.\n");
       return 1;
     }
 
@@ -64,7 +64,7 @@ int show_meaning(char *belief) {
   /* show the requested belief */
   for(i = 0; meanings[i].belief != NULL; i++){
     if(strcmp(meanings[i].belief, belief) == 0){
-      printf("%s", meanings[i].meaning);
+      printf("%s\n", meanings[i].meaning);
       return 1;
     };
   }
