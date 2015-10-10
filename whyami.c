@@ -22,7 +22,6 @@
 static const char default_meaning[] = "42";
 
 int show_meaning(char *belief);
-int get_meaning_count();
 
 int main(int argc, char *argv[]) {
     char *belief;
