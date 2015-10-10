@@ -10,6 +10,7 @@ Build and Install
     $ cd whyami
     $ make
     $ sudo make install
+    $ whyami
 
 The default install PREFIX is `/usr/bin`.
 
