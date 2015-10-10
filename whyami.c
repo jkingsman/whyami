@@ -53,6 +53,14 @@ int show_meaning(char *belief) {
     located_belief = 1;
   }
 
+  /* show belief list */
+  if(strcmp(belief, "list") == 0){
+    for(i = 0; meanings[i].belief != NULL; i++){
+        printf("%s - %s\n", meanings[i].prettybelief, meanings[i].belief);
+    }
+    return 1;
+  }
+
   /* show the requested belief */
   for(i = 0; meanings[i].belief != NULL; i++){
     if(strcmp(meanings[i].belief, belief) == 0 && !located_belief){
