@@ -61,8 +61,8 @@ int show_meaning(char *belief) {
     return 1;
   }
 
+  /* show the requested belief */
   else{
-    /* show the requested belief */
     for(i = 0; meanings[i].belief != NULL; i++){
       if(strcmp(meanings[i].belief, belief) == 0){
         printf("%s\n", meanings[i].meaning);
