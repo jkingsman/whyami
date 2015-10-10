@@ -20,6 +20,8 @@ Usage
 
 `whyami [--belief]` returns a meaning from a random philosophy of belief, or the meaning as optionally specified by some named `belief` system.
 
+Also allows for the fantastic command `man whyami`. Bruh. Deep.
+
 Disclaimer
 -----
 I mean no offense by any meanings. If you see one you disagree with, make a PR. This project is very tongue-in-cheek and should not be taken seriously by anyone, nor do any of the meanings necessarily reflect the author's point of view.
