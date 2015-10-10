@@ -44,13 +44,13 @@ int main(int argc, char *argv[]) {
 }
 
 int show_meaning(char *belief) {
-  int i, located_belief = 0;
+  int i;
 
   /* show random belief and meaning if they asked for one */
   if(strcmp(belief, "random") == 0){
     i = rand() % get_meaning_count();
     printf("According to the philosophy of %s: %s\n", meanings[i].prettybelief, meanings[i].meaning);
-    located_belief = 1;
+    return 1;
   }
 
   /* show belief list */
@@ -63,13 +63,11 @@ int show_meaning(char *belief) {
 
   /* show the requested belief */
   for(i = 0; meanings[i].belief != NULL; i++){
-    if(strcmp(meanings[i].belief, belief) == 0 && !located_belief){
+    if(strcmp(meanings[i].belief, belief) == 0){
       printf("%s", meanings[i].meaning);
-      located_belief = 1;
+      return 1;
     };
   }
-
-  return located_belief;
 }
 
 int get_meaning_count(){
