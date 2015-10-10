@@ -18,7 +18,7 @@ Please add your own belief systems in `meanings.h`. Thanks to [this reddit post]
 Usage
 -----
 
-`whyami [--belief]` returns a meaning from a random philosophy of belief, or the meaning as optionally specified by some named `belief` system.
+`whyami [--belief]` returns a meaning from a random philosophy of belief, or the meaning as optionally specified by some named `belief` system (see the belief systems in `meanings.h`).
 
 Also allows for the fantastic command `man whyami`. Bruh. Deep.
 
