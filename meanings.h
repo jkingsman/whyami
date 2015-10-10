@@ -26,6 +26,7 @@ static Meaning meanings[] = {
     {"coke", "Cocaine Addict", "Just one more line!"},
     {"ara", "Animal Rights Activist", "Consider, preserve, and honor all lives, including animals'."},
     {"feminism", "Feminism", "Equal rights for all human beings, especially with a mind to bring equality to women"},
+    {"area51", "Area 51", "It shouldn't be any of your concern."},
     { NULL, NULL, NULL },   /* Indicates last element in the array; must be kept in */
 };
 #endif
