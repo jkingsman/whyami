@@ -68,6 +68,8 @@ int show_meaning(char *belief) {
       return 1;
     };
   }
+
+  return 0;
 }
 
 int get_meaning_count(){
