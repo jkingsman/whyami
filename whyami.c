@@ -48,7 +48,7 @@ int show_meaning(char *belief) {
 
   /* show random belief and meaning if they asked for one */
   if(strcmp(belief, "random") == 0){
-    i = rand() % get_meaning_count();
+    i = rand() % (sizeof(meanings) / sizeof(meanings[0]) - 1);
     printf("According to the philosophy of %s: %s\n", meanings[i].prettybelief, meanings[i].meaning);
     return 1;
   }
@@ -70,11 +70,4 @@ int show_meaning(char *belief) {
   }
 
   return 0;
-}
-
-int get_meaning_count(){
-  /* ugly, but we have a variable length array of variable length structs */
-  int i;
-  for(i = 0; meanings[i].belief != NULL; i++){}
-  return i;
 }
