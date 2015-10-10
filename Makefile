@@ -25,8 +25,8 @@ $(PROG): *.c
 	$(CC) -o $@ $(CPPFLAGS) $(CFLAGS) $(LDFLAGS) $^
 	-$(STRIP) -s $@
 
-$(MANPAGE): gti.6
-	gzip -9 -n -c gti.6 > gti.6.gz
+$(MANPAGE): whyami.6
+	gzip -9 -n -c whyami.6 > whyami.6.gz
 
 install: $(PROG) $(MANPAGE)
 	$(INSTALL) $(PROG) $(BINDIR)/$(PROG)
