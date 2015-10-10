@@ -25,7 +25,7 @@ Usage
 
 Show a possible list of beliefs with the `whyami --list` command.
 
-Also allows for the fantastic command `man whyami`. Bruh. Deep.
+Also allows for the fantastic command `man whyami`. Bruh. *Deep.*
 
 Disclaimer
 -----
