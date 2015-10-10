@@ -1,7 +1,7 @@
 whyami
 ===
 
-The ontological counterpart to `whoami` - for all your existential command line needs.
+The ontological counterpart to `whoami` - for all your existential and ontological command line needs.
 
 Build and Install
 -----------------
