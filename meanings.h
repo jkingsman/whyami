@@ -22,8 +22,8 @@ static Meaning meanings[] = {
     {"jrdev", "Junior Software Developer", "StackOverflow.com"},
     {"hardware", "Hardware Development", "Don't let the magic smoke out."},
     {"management", "Management", "Delegate."},
-    {"fengshui", "Feng Shui", "Harmony"},
-    {"coke", "Cocaine Addict", "Just one more line"},
+    {"fengshui", "Feng Shui", "Harmonize."},
+    {"coke", "Cocaine Addict", "Just one more line!"},
     {"ara", "Animal Rights Activist", "Consider, preserve, and honor all lives, including animals'."},
     {"feminism", "Feminism", "Equal rights for all human beings, especially with a mind to bring equality to women"},
     { NULL, NULL, NULL },   /* Indicates last element in the array; must be kept in */
