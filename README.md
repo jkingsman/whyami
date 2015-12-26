@@ -31,3 +31,6 @@ Also allows for the fantastic command `man whyami`. Bruh. *Deep.*
 Disclaimer
 -----
 I mean no offense by any meanings. If you see one you disagree with, make a PR. This project is very tongue-in-cheek and should not be taken seriously by anyone, nor do any of the meanings necessarily reflect the author's point of view.
+
+-----
+[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=jkingsman&url=https://github.com/jkingsman/whyami&title=whyami&language=en&tags=github&category=software)
